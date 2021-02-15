@@ -9,7 +9,7 @@ def precision(recommended_list, bought_list):
     
     precision = flags.sum() / len(recommended_list)
     
-    return precision
+    return precision 
 
 
 def precision_at_k(recommended_list, bought_list, k=5):
